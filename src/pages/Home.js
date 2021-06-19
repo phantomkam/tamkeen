@@ -22,7 +22,7 @@ export class Home extends Component {
     }
 
     componentDidMount() {
-        fetch("http://tamkeen.dev.me/?cards=all")
+        fetch("https://thenootropicsfactory.com/tamkeen/?cards=all")
             .then(res => res.json())
             .then(
                 (result) => {
